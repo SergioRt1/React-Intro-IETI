@@ -1,3 +1,9 @@
+# Lab 1 React-Intro-IETI
+
+##### By: Sergio Andrés Rodríguez Torres
+
+##### ECI
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
