@@ -8,11 +8,9 @@ export class TodoList extends React.Component {
     }
 
     render() {
-        const todos = this.props.todoList;
+        const todos = this.props.items;
         const list = todos.map((todo) =>
-            <li >
-                <Todo text={todo.text}  dueDate={todo.dueDate} priority={todo.priority.toString}/>
-           </li>
+            <Todo text={todo.text} priority={todo.priority} dueDate={todo.dueDate}  />
         );
         return (
             <ul>{list}</ul>
